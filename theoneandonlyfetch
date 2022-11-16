@@ -1,0 +1,3 @@
+#/usr/bin/env bash
+
+head -c 500 /dev/urandom | base64 | lolcat
